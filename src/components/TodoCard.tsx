@@ -21,7 +21,7 @@ const TodoCard: FC<TodoProps> = ({ todo }) => {
       >
         {todo.content}
       </Text>
-      <Button colorScheme="blue" color="blue">
+      <Button colorScheme="blue">
         <FiEdit3 />
       </Button>
       <Button colorScheme="red">
